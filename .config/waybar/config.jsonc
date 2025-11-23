@@ -2,10 +2,11 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    "height": 10, // Waybar height (to be removed for auto height)
-    "spacing": 4, // Gaps between modules (4px)
-    "tooltip": true,
-    "gtk-layer-shell": true,  // Add this
+    //"height": 7, // Waybar height (to be removed for auto height)
+    "spacing": 1, // Gaps between modules (4px)
+    //"tooltip": true,
+    "tooltip": false,
+    //"gtk-layer-shell": true,  // Add this
     // Choose the order of the modules
     "modules-left": [
         "hyprland/workspaces"
@@ -21,8 +22,7 @@
         "cpu",
         "memory",
         "temperature",
-        "battery",
-        "tray"
+        "battery"
         //"custom/power"
     ],
     "playerctl": {
@@ -31,12 +31,6 @@
 	    "format-playing": " {{ artist }} - {{ title }}",
 	    "interval": 1,
 	    "player": "firefox"
-    },
-    "tray": {
-        "spacing": 10,
-        "icons": {
-            "blueman": "bluetooth"
-        }
     },
     "clock": {
         "format": "{:%H:%M}",
