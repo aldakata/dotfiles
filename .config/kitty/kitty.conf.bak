@@ -6,6 +6,6 @@ url_launcher: executing: xdg-open https://example.com
 
 
 # BEGIN_KITTY_THEME
-# H-PUX
+# Solarized Light
 include current-theme.conf
 # END_KITTY_THEME

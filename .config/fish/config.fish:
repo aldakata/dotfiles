@@ -1,0 +1,3 @@
+# Make vim call nvim
+alias vim='nvim'
+alias vi='nvim'
