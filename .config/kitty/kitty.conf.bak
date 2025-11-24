@@ -5,6 +5,6 @@ log_level debug
 url_launcher: executing: xdg-open https://example.com
 
 # BEGIN_KITTY_THEME
-# Everforest Light Soft
+# Desert Night
 include current-theme.conf
 # END_KITTY_THEME
