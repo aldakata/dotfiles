@@ -467,7 +467,6 @@ require('lazy').setup({
         float = {
           enable = false,
         },
-        update_cwd = true,
       },
     },
   },
