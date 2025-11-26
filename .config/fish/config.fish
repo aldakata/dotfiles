@@ -4,7 +4,7 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 alias killcode 'pgrep -f "code" | xargs kill -9'
 
 alias v="nvim"
-
+alias s="kitten ssh"
 # overwrite greeting
 # potentially disabling fastfetch
 #function fish_greeting
